@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    background: #fff;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* header */
+.logoA {
+    width: 200px;
+    filter: brightness(0) invert(1);
+}
+
+.logoL {
+    width: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.logo {
+    margin: 0;
+    font-size: 1.45em;
+    padding-left: 100px;
+}
+
+.header-ali select {
+    border: none;
+    width: 100px;
+    background-color: #333739;
+    color: #fff;
+    font-size: 1em;
+}
+
+.header-ali {
+    margin-top: 5px;
+    display: flex;
+}
+
+.header-ali a {
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 1em;
+}
+
+.header {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 1px solid #a2a2a2;
+    background-color: #333739;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    z-index: 9999;
+}
+
+/* sign in page */
+.form_bg {
+    background: #fff;
+    width: 75%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 4% 8%;
+    margin: 2% auto 0;
+    position: relative;
+    z-index: 1;
+    border-top: 3px solid #ff6a00;
+    box-shadow: 15px 0 15px -1px rgba(31, 73, 125, 0.04),
+        -12px 0 8px -1px rgba(31, 73, 125, 0.04);
+    margin-bottom: 10px;
+}
+
+.form_bg input {
+    width: 100%;
+    padding: 8px 10px 9px 15px;
+    height: 35px;
+    border: 1px solid #ff6a00;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.button {
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+}
+
+.form_bg .button {
+    background-color: #ff6a00;
+    margin-bottom: 6%;
+    margin-top: 5%;
+    color: white;
+}
+
+.form_bg select {
+    width: 100%;
+    padding: 8px 10px 9px 15px;
+    height: 35px;
+    border: 1px solid #dcdddd;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.form_input p {
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.txt0 {
+    color: #ffa200;
+}
+
+.input_field {
+    margin-top: 0.8cm;
+}
+
+.input_field input {
+    border-color: #333739;
+}
+
+.input_field a {
+    color: #ff6a00;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.right {
+    width: 100%;
+}
+
+.alr {
+    text-align: center;
+}
+
+.checkbox {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox>span {
+    color: #34495e;
+    padding: 0.5rem 0.25rem;
+}
+
+.checkbox input {
+    margin-top: 0.7rem;
+    margin-right: 10px;
+}
+
+.checkbox>input {
+    height: 25px;
+    width: 25px;
+    appearance: none;
+    border: 2px solid #dcdddd;
+    transition-duration: 0.3s;
+    background-color: none;
+    cursor: pointer;
+}
+
+.checkbox>input:checked {
+    border: none;
+    background-color: #ff6a00;
+}
+
+.checkbox>input:checked+span::before {
+    content: "\2714";
+    display: block;
+    text-align: center;
+    margin-top: 0.7rem;
+    color: white;
+    position: absolute;
+    left: 0.42rem;
+    top: 0.15rem;
+}
+
+/* banner */
+.banner {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.bgali {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: 160px;
+}
+
+.banner h2 {
+    color: black;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+    z-index: 200;
+}
+
+.banner p {
+    text-align: center;
+    font-size: 14p;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-color: #333739;
+    bottom: 0px;
+    position: relative;
+}
+
+.footer-links {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.5% 2.2%;
+    position: relative;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#satu {
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+    word-spacing: 0.1em;
+}
+
+#dua {
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+    word-spacing: 0.3em;
+}
+
+#tiga {
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+    word-spacing: 0.1em;
+}
+
+/* INFORMATION TAB (RIGHT SIGN UP) */
+.signup {
+    position: block;
+    display: flex;
+}
+
+.design1 {
+    width: 25%;
+}
+
+.design2 {
+    width: 50%;
+    padding-top: 52px;
+}
+
+.design3 {
+    position: relative;
+    left: -4%;
+    padding-top: 42px;
+    width: 25%;
+}
+
+.design3 a {
+    color: #ff6a00;
+    text-decoration: none;
+}
+
+.design3 h4 {
+    margin-top: 20px;
+}
+
+.design3 p {
+    color: grey;
+}
